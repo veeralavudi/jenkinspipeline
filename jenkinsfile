@@ -3,18 +3,18 @@ agent any
 stages {
 stage('Build') {
 step {
-echo "Transfering the project
+echo "Transfering the project..."
 }
 }
 stage('Testing') {
 step {
-echo "Testing the project
+echo "Testing the project..."
 }
 }
 stage('Release') {
 step {
-echo "Release the project
+echo "Release the project..."
 }
 }
-
-
+}
+}
