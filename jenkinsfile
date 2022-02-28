@@ -2,17 +2,22 @@ pipeline {
 agent any 
 stages {
 stage('Build') {
-step {
-echo "Transfering the project..."
+steps {
+echo "Building the project..."
+}
+}
+stage('Compile') {
+steps {
+echo "Compiling the project..."
 }
 }
 stage('Testing') {
-step {
+steps {
 echo "Testing the project..."
 }
 }
 stage('Release') {
-step {
+steps {
 echo "Release the project..."
 }
 }
